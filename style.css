@@ -21,6 +21,11 @@ header {
   text-align: center;
 }
 
+header div {
+  display: flex;
+  align-items: center;
+}
+
 /* Containers */
 div {
   background-color: #eae2b7;
