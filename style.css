@@ -43,15 +43,12 @@ header div {
 
 /* Portfolio */
 .portfolio {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  gap: 14px;
+  display: flex;
 }
 
 .portfolio-item {
   display: flex;
   flex-direction: column;
-  flex-basis: content;
 }
 
 .portfolio-item p {
