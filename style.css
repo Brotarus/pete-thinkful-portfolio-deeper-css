@@ -41,6 +41,23 @@ header div {
   text-align: left;
 }
 
+/* Portfolio */
+.portfolio {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: 14px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: content;
+}
+
+.portfolio-item p {
+  font-size: 14px;
+}
+
 /* Containers */
 div {
   background-color: #eae2b7;
