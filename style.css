@@ -26,6 +26,21 @@ header div {
   align-items: center;
 }
 
+/* About */
+.about {
+  display: flex;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text p,
+.about-text ul {
+  text-align: left;
+}
+
 /* Containers */
 div {
   background-color: #eae2b7;
